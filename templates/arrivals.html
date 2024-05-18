@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet - Arrivals</title>
+
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom CSS file -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="shortcut icon" href="../images/icon.jpg" type="image/x-icon">
+</head>
+<body>
+
+    <!-- header section -->
+    <header class="header">
+        <div class="header__1">
+            <a href="#" class="header__logo"><i class="fas fa-book"></i> Leaflet</a>
+            <form action="" class="header__search">
+                <input type="search" name="" id="search-box" placeholder="Search">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="header__icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div class="fas fa-user" id="login-btn"></div>
+            </div>
+        </div>
+
+        <div class="header__2">
+            <nav class="header__nav">
+                <a href="../index.html">home</a>
+                <a href="featured.html">featured</a>
+                <a href="#">arrivals</a>
+                <a href="reviews.html">reviews</a>
+                <a href="blogs.html">blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- botton navbar -->
+    <nav class="bottom__nav">
+        <a href="../index.html" class="fas fa-home"></a>
+        <a href="featured.html" class="fas fa-list"></a>
+        <a href="#" class="fas fa-tags"></a>
+        <a href="reviews.html" class="fas fa-comments"></a>
+        <a href="blogs.html" class="fas fa-blog"></a>
+    </nav>
+
+    <!-- login form -->
+    <div class="login">
+        <div id="login__close-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" class="box" name="" id="" placeholder="enter email address">
+            <span>password</span>
+            <input type="password" class="box" name="" id="" placeholder="enter password">
+            <div class="login__check-box">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account ? <a href="#">create account</a></p>
+        </form>
+    </div>
+
+    <!-- arrivals section -->
+    <section class="arrivals" id="arrivals">
+        <h1 class="heading"> <span>new arrivals</span></h1>
+
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <a href="https://boxnovel.com/novel/global-game-afk-in-the-zombie-apocalypse-game/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book1.png" title="Global Game: AFK In The Zombie Apocalypse Game " alt="Global Game: AFK In The Zombie Apocalypse Game ">
+                    </div>
+                    <div class="content">
+                        <h3>Global Game: AFK In The Zombie Apocalypse Game </h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://boxnovel.com/novel/omniscient-readers-viewpoint-boxnovel/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book2.png" title="Omniscient Reader’s Viewpoint" alt="Omniscient Reader’s Viewpoint">
+                    </div>
+                    <div class="content">
+                        <h3>Omniscient Reader’s Viewpoint</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://boxnovel.com/novel/reverend-insanity/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book3.png" title="Reverend Insanity" alt="Reverend Insanity">
+                    </div>
+                    <div class="content">
+                        <h3>Reverend Insanity</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://boxnovel.com/novel/lord-of-the-mysteries-boxnovel/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book4.png" title="Lord Of The Mysteries" alt=Lord Of The Mysteries"">
+                    </div>
+                    <div class="content">
+                        <h3>Lord Of The Mysteries</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://boxnovel.com/novel/the-legendary-mechanic-boxnovel/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book5.png" title="The Legendary Mechanic" alt="The Legendary Mechanic">
+                    </div>
+                    <div class="content">
+                        <h3>The Legendary Mechanic</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <a href="https://boxnovel.com/novel/lord-of-mysteries-2-circle-of-inevitability/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book6.png" title="Circle Of Inevitability" alt="Circle Of Inevitability">
+                    </div>
+                    <div class="content">
+                        <h3>Circle Of Inevitability</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://boxnovel.com/novel/transcending-the-nine-heavens/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book7.png" title="Transcending the Nine Heavens" alt="Transcending the Nine Heavens">
+                    </div>
+                    <div class="content">
+                        <h3>Transcending the Nine Heavens</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://boxnovel.com/novel/reincarnation-of-the-strongest-sword-god-boxnovel/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book8.png" title="Reincarnation Of The Strongest Sword God" alt="Reincarnation Of The Strongest Sword God">
+                    </div>
+                    <div class="content">
+                        <h3>Reincarnation Of The Strongest Sword God</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://boxnovel.com/novel/super-gene-boxnovel/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book9.png" title="Super Gene" alt="Super Gene">
+                    </div>
+                    <div class="content">
+                        <h3>Super Gene</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://boxnovel.com/novel/astral-pet-store-boxnovel/" class="swiper-slide box">
+                    <div class="image">
+                        <img src="../images/book10.png" title="Astral Pet Store" alt="Astral Pet Store">
+                    </div>
+                    <div class="content">
+                        <h3>Astral Pet Store</h3>
+                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- deals section -->
+    <section class="deal">
+        <div class="content">
+            <h3>deal of the day</h3>
+            <h1>up to 50% off</h1>
+            <p>Enjoy up to 50% off on select titles. Quality reading doesn't have to break the bank. Shop now and indulge in the world of words for less.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="image">
+            <img src="../images/deals.png" alt="">
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our locations</h3>
+                <a href="https://maps.app.goo.gl/isntr74TmQxo8gQ69"><i class="fas fa-map-marker-alt"></i> Cebu</a>
+                <a href="https://maps.app.goo.gl/iMLkdxoqrZq1fTsk8"><i class="fas fa-map-marker-alt"></i> Iloilo</a>
+                <a href="https://maps.app.goo.gl/9AZt47RKQrXZwZpg7"><i class="fas fa-map-marker-alt"></i> Capiz</a>
+                <a href="https://maps.app.goo.gl/Sq48DEiSGqqFxB6ZA"><i class="fas fa-map-marker-alt"></i> Aklan</a>
+                <a href="https://maps.app.goo.gl/CNE7L8swefZmygwR8"><i class="fas fa-map-marker-alt"></i> Antique</a>
+                <a href="https://maps.app.goo.gl/MMk88kPuZ6fvpd4x6"><i class="fas fa-map-marker-alt"></i> Negros</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="../index.html"><i class="fas fa-arrow-right"></i> home</a>
+                <a href="featured.html"><i class="fas fa-arrow-right"></i> featured</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> arrivals</a>
+                <a href="reviews.html"><i class="fas fa-arrow-right"></i> reviews</a>
+                <a href="blogs.html"><i class="fas fa-arrow-right"></i> blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i> account info</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> ordered items</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> privacy policy</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> payment method</a>
+                <a href="#"><i class="fas fa-arrow-right"></i> our services</a>
+            </div>
+            
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="tel:+639667752661"><i class="fas fa-phone"></i> +63-966-7752-661</a>
+                <a href="tel:+639625655306"><i class="fas fa-phone"></i> +63-962-5655-306</a>
+                <a href="mailto:kirkhenrich.gamo@wvsu.edu.ph"><i class="fas fa-envelope"></i> kirkhenrich.gamo@wvsu.edu.ph</a>
+                <img src="../images/worldmap.jpg" alt="" class="map">
+                
+            </div>
+        </div>
+
+        <div class="share">
+            <a href="https://www.facebook.com/kirthenrich.gamo" class="fab fa-facebook-f"></a>
+            <a href="https://x.com/KXAZTHRA1" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/korkkkk1/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/kirkgamo/" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"><span>kirk henrich gamo</span> | all rights reserved.</div>
+    </section>
+
+    <!-- loader -->
+    <div class="loader-container">
+        <img src="../images/loader-img.gif" alt="">
+    </div>
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom JS file -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
